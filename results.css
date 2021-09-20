@@ -1,0 +1,82 @@
+body {
+    background: url("../images/sm4.jpg");
+    font: normal 16px/1.5 "Helvetica Neue", sans-serif;
+    
+  }
+  
+  
+  ul {
+   
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(240, 128, 128) ;
+    font-size: 0.999em;
+    text-decoration: none;
+    padding: 1em;
+    white-space: nowrap;
+    letter-spacing: 1px;
+  }
+  
+  ul li a:hover {
+    border-bottom: 3px solid rgb(240, 128, 128) ;
+  }
+  .container2{
+color:crimson;
+font-family:monospace;
+font-size:40px;
+  }
+  .container3{
+    color:crimson;
+    font-family:monospace;
+    font-size:30px;
+    border-bottom:2px solid crimson
+      }
+      .container4{
+        display:flex;
+        flex-wrap: nowrap;
+        
+
+          }
+          .container5{
+            background-color:crimson;
+            padding: 15px;
+            border-radius: 5px;
+            width: 150px;
+            height: 20px;
+          
+            
+            font-family:cursive;
+            font-size: 25px;
+            text-align: center;
+  
+           
+          }
+          button{
+            width:120px;
+            height:50px;
+            border-radius: 5px;
+            font-family:monospace;
+            font-size:20px;
+            cursor: pointer;
+            background-color:lightcoral;
+             color:rgb(71, 0, 36);
+            margin-left:200px;
+          }
+          
+          
+          
+  
+          ::placeholder{
+            color:#033d5a 
+          ;
+          }
